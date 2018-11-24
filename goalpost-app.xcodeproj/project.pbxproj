@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		671F59E321A9392700FB592D /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 671F59E221A9392700FB592D /* GoalType.swift */; };
 		6757147B21A66D0C0051A415 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757147A21A66D0C0051A415 /* AppDelegate.swift */; };
 		6757147D21A66D0C0051A415 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6757147C21A66D0C0051A415 /* GoalsVC.swift */; };
 		6757148021A66D0C0051A415 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757147E21A66D0C0051A415 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		671F59E221A9392700FB592D /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoalType.swift; path = "goalpost-app/GoalType.swift"; sourceTree = SOURCE_ROOT; };
 		6757147721A66D0C0051A415 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6757147A21A66D0C0051A415 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6757147C21A66D0C0051A415 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		6757149121A66D7B0051A415 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				671F59E221A9392700FB592D /* GoalType.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67EC4B5521A67B4C00DCB056 /* GoalCell.swift in Sources */,
+				671F59E321A9392700FB592D /* GoalType.swift in Sources */,
 				6757147D21A66D0C0051A415 /* GoalsVC.swift in Sources */,
 				6757147B21A66D0C0051A415 /* AppDelegate.swift in Sources */,
 				6757148321A66D0C0051A415 /* goalpost_app.xcdatamodeld in Sources */,
