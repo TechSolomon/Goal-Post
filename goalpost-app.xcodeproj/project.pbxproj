@@ -15,6 +15,7 @@
 		6757148321A66D0C0051A415 /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6757148121A66D0C0051A415 /* goalpost_app.xcdatamodeld */; };
 		6757148521A66D0D0051A415 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6757148421A66D0D0051A415 /* Assets.xcassets */; };
 		6757148821A66D0D0051A415 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757148621A66D0D0051A415 /* LaunchScreen.storyboard */; };
+		676EC0B621AA1A7B00B16B47 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676EC0B521AA1A7B00B16B47 /* UIViewControllerExt.swift */; };
 		67EC4B5521A67B4C00DCB056 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67EC4B5421A67B4C00DCB056 /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		6757148421A66D0D0051A415 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6757148721A66D0D0051A415 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6757148921A66D0D0051A415 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676EC0B521AA1A7B00B16B47 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewControllerExt.swift; path = "goalpost-app/Controller/UIViewControllerExt.swift"; sourceTree = SOURCE_ROOT; };
 		67EC4B5421A67B4C00DCB056 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GoalCell.swift; path = "goalpost-app/GoalCell.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		6757149221A66D820051A415 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				676EC0B521AA1A7B00B16B47 /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				671F59E321A9392700FB592D /* GoalType.swift in Sources */,
 				6757147D21A66D0C0051A415 /* GoalsVC.swift in Sources */,
 				6757147B21A66D0C0051A415 /* AppDelegate.swift in Sources */,
+				676EC0B621AA1A7B00B16B47 /* UIViewControllerExt.swift in Sources */,
 				6757148321A66D0C0051A415 /* goalpost_app.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
